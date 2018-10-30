@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <title>AresPOS-Online</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+
+ <!-- Fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+ <!-- Icons -->
+ <link href="./assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+ <link href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+ 
+ <!-- Argon CSS -->
+ <link type="text/css" href="./assets/css/argon.css?v=1.0.0" rel="stylesheet">
+
+    <!-- service worker -->
+    <meta name="application-name" content="AresPOS-v2" />
+    <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="manifest.json">
+
+  </head>
+<body class="bg-gradient-primary">
+  <!-- Sidenav -->
+  <nav class="navbar navbar-vertical fixed-left fixed-top navbar-expand-md navbar-light bg-white" id="sidenav-main">
+    <div class="container-fluid">
+      <!-- Toggler -->
+      <button id="btnMenu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Brand -->
+      <a class="navbar-brand pt-0" href="#">
+        <img src="./assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
+        <span class="navbar-brand">Ventas</span>
+      </a>
+        
+      
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+        <!-- Collapse header -->
+        <div class="navbar-collapse-header d-md-none">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="./index.html">
+                <img src="./assets/img/brand/blue.png">
+              </a>
+            </div>
+            <!-- boton de cerrado del menu -->
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle sidenav">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+     
+        <!-- Navigation -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" id="btnInicio" href="#" data-toggle="collapse" data-target="#sidenav-collapse-main">
+              <i class="ni ni-tv-2 text-primary"></i> Inicio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="btnPrecios2" href="#" data-toggle="collapse" data-target="#sidenav-collapse-main">
+              <i class="ni ni-planet text-blue"></i> Precios
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="btnVentas2" href="#" data-toggle="collapse" data-target="#sidenav-collapse-main">
+              <i class="ni ni-pin-3 text-orange"></i> Ventas
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="btnContactos" href="#" data-toggle="collapse" data-target="#sidenav-collapse-main">
+              <i class="ni ni-single-02 text-yellow"></i> Contactos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="collapse" data-target="#sidenav-collapse-main">
+              <i class="ni ni-bullet-list-67 text-red"></i> Ofertas
+            </a>
+          </li>
+
+          <!--
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="ni ni-key-25 text-info"></i> Login
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="ni ni-circle-08 text-pink"></i> Register
+            </a>
+          </li>-->
+
+        </ul>
+        <!-- Divider -->
+        <hr class="my-3">
+  
+      </div>
+    </div>
+  </nav>
+  <!-- Main content -->
+  <div class="main-content bg-gradient-primary">
+
+    <!-- Top navbar -->
+    <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
+      <div class="container-fluid">
+        <!-- Brand -->
+        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block">App de Ventas</a>
+      </div>
+    </nav>
+
+      <!-- container principal -->
+    <div class="header pb-8 pt-5 pt-md-8 ">
+        <div class="container-fluid">
+          <div class="header-body">
+            <div class="row" id="container" style="padding:7%">
+
+             
+                
+       
+            </div>
+          </div>
+        </div>
+    </div> 
+  
+</body>
+
+  <!-- Core -->
+  <script src="./assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+     
+     <!-- Argon Scripts -->
+
+  <!-- Optional JS -->
+  <script src="./assets/vendor/chart.js/dist/Chart.min.js"></script>
+  <script src="./assets/vendor/chart.js/dist/Chart.extension.js"></script>
+  <!-- Argon JS -->
+  <script src="./assets/js/argon.js?v=1.0.0"></script>
+    
+     
+    <script src="./assets/funciones.js"></script>
+    <script src="app.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+          
+       
+        
+        });
+    
+    </script>
+
+
+</html>
